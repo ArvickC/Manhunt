@@ -1,0 +1,26 @@
+name: Manhunt
+version: 1.0.0
+main: me.mystc.manhunt.Manhunt
+api-version: 1.17
+authors: [mystc]
+description: Simple setup for minecraft manhunt!
+permissions:
+  manhunt.setup:
+    description: Allows you to run the setup command
+    default: op
+  manhunt.end:
+    description: Allows you to run the end commands
+    default: op
+  manhunt.spectator:
+    description: Allows you to run the spectator command
+    default: true
+commands:
+  end:
+    description: Ends the game
+    aliases: [endgame, stopgame, endmanhunt, stopmanhunt, quitmanhunt, quitgame]
+  setup:
+    description: Setup the game
+    aliases: [start, setupgame, startgame, startmanhunt, setupmanhunt]
+  spectator:
+    description: Join the spectator team for next round
+    aliases: [joinspectator, spec, joinspec, groupspec, groupspectator]
