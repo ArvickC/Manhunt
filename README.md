@@ -6,6 +6,7 @@ To setup this plugin, just download the file and place it in your server's "plug
 
 ## Features
 - Automaticly Genorate a new world for each game
+- Automaticly gives hunters the 'compass' that tracks the runner
 - No need to restart server for new games
 - Join spectator team for upcoming games
 - Super simple! :)
